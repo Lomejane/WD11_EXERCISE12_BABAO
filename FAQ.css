@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search-field {
+    width: 300px;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 100px;
+    transition: width .5s;
+    outline: none;
+}
+
+.search-field:hover{
+    width: 500px;
+}
+  
+.search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -55px;
+}
+  
+.search-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+main {
+    background-color: skyblue;
+    height: 90vh;
+    width: 100vw;
+}
+
+.faq-container {
+    margin-top: 5vh;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
